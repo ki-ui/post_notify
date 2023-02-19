@@ -1,4 +1,13 @@
-# ESP32_GY-521_deepsleep
-deepsleepしたESP32をGY-521の動体検知で起動させるサンプルです
+# post_notify
+GY-521が動体検知した際、ESP32がdeepsleepから復帰し、LINEに通知を送ります。
 
-![pin_check](https://user-images.githubusercontent.com/12193631/71639429-cee66900-2cb9-11ea-85e2-e3a3b288501f.jpg)
+
+
+ピン配置
+|  ESP32  |  GY-521  |
+| ---- | ---- |
+|  5V  |  VCC  |
+|  GND  |  GND  |
+|  26  |  SCL  |
+|  25  |  SCA  |
+|  13  |  INT  |
